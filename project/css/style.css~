@@ -1,0 +1,36 @@
+.header{
+	height:80px;
+	margin-top:15px;
+	margin-left:100px;
+}
+
+.nav{
+	height:40px;
+	background-color:#3355aa;
+	font-size:15px;
+	
+}
+
+.nav ul{
+	padding-top:10px;
+}
+
+.nav li{
+	display:inline;
+	padding:15px;
+	
+}
+
+.nav a{
+	color:#ffffff;	
+	margin-top:15px;
+}
+
+.form{
+	float:right;
+	padding-top:0px;
+}
+
+.form span{
+	float:right;
+}
