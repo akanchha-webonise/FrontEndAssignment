@@ -1,6 +1,7 @@
 .header{
 	height:80px;
 	margin-top:15px;
+	margin-left: 50px;
 }
 
 .body{
@@ -21,13 +22,17 @@
 
 .nav li{
 	display:inline;
-	padding:5px;
+	padding-left: 10px;
 	
 }
 
 .nav a{
 	color:#ffffff;	
 	margin-top:15px;
+	font-style: italic;
+	border-right: 0.5px solid;
+	border-spacing: 10px;
+	padding-right:10px;
 }
 
 .form{
@@ -45,11 +50,12 @@
 	margin-top:35px;
 	margin-left: 10px;
 	padding: 10px;
+	border-radius:8px;
 }
 
 .border p{
 	font-size: 14px;	
-	align-content: center;
+	font-style: italic;
 }
 
 .heading{
@@ -90,7 +96,7 @@
 
 }
 .greybox{
-	background-color: gray;
+	background-color: #D3D3D3;
 	height: 250px;
 	white-space: 5px;
 }
@@ -100,17 +106,42 @@
 }
 
 .end{
-	background-color: black;
+	background-color: #333333;
+	padding-top:15px;
 }
 
 .end li{
 	display:inline;
 	padding: 10px;
 	margin-top:15px;
+	font-size: 15px;
+
+}
+.end a{
+	border-right: 0.5px solid;
+	padding-right: 10px;
+	color:gray;
 }
 
-.vl{
-	height:10px;
-	width: 10px;
+.viewmore{
+	color:blue;
+}
 
+.end hr{
+	border-color: #3d3d3d;
+}
+.right{
+	float: right;
+}
+
+
+
+.micro{
+	font-size:11px;
+	padding-bottom: 25px;
+	color:#222222;
+}
+
+.clearfix{
+	clear: both;
 }
